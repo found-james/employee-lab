@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 export default function EmployeeListItem (props){
 
     return (
@@ -25,7 +25,7 @@ export default function EmployeeListItem (props){
         </span>
       </article>
       <article style={props.articleTwo}>
-        <h4>{props.fullName}</h4>
+        <Link to="/employeepage"><h4>{props.fullName}</h4></Link>
         <p>{props.role}</p>
       </article>
     </section>
