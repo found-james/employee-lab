@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function EmployeeListItem (props){
 
     return (
-        <section style={ {display: "flex", border: "1px solid black"} }>
+        <section style={ {display: "flex", border: "1px solid black", padding: "5px"} }>
         <article style={{
                         className: "employee-pic",
                         display: "inherit",
